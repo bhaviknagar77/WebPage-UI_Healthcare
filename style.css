@@ -1,0 +1,1640 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #000000 !important;
+}
+
+/* Navbar Section */
+
+
+
+.logo a,
+i {
+    color: #670a9c !important;
+
+}
+
+nav .navbar {
+    background: rgb(158, 68, 218) !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    color: #ffffff !important;
+    /* background: none !important; */
+}
+
+/* .navbar::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #a2a3a3 0%, #858b8b 0%, #74797a 100%);
+} */
+
+.nav-item a {
+    color: rgb(10, 10, 10) !important;
+}
+
+
+.header-section {
+    width: 100%;
+    height: 70vh;
+    color: white;
+    /* position: relative; */
+    text-align: center;
+    margin-top: 120px;
+    /* background-image: linear-gradient(rgba(0, 170, 255, 0), rgba(0, 170, 255, 0)), url("./images/header-bg1.png"); */
+    background-repeat: no-repeat;
+    background: rgba(248, 246, 246, 0.712);
+}
+
+
+
+.header-right::before {
+    content: "100% Our Patients satisfied";
+    /* font-family: FontAwesome; */
+    position: absolute;
+    top: 65%;
+    right: 0%;
+    left: 45%;
+    /* bottom: 30%; */
+    /* opacity: .3; */
+    z-index: 10;
+    width: 12vw;
+    height: 9vh;
+    background: #e6dedeec;
+    color: #383737;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    padding: 10px;
+
+}
+
+.header-right::after {
+    content: "24x7 Call Center";
+    /* font-family: FontAwesome; */
+    position: absolute;
+    top: 58%;
+    right: 0%;
+    left: 75%;
+    /* bottom: 30%; */
+    /* opacity: .3; */
+    z-index: 10;
+    width: 12vw;
+    height: 9vh;
+    background: #e6dedeec;
+    color: #383737;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    padding: 10px;
+
+}
+
+
+
+.header-section h1 {
+    text-align: justify;
+    color: #000000;
+    font-size: 2.8rem;
+
+}
+
+section.header-left {
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+
+
+
+.center-div p {
+    color: white;
+    padding: 0px;
+    font-size: .9rem;
+    width: 90%;
+    text-align: left;
+}
+
+
+
+.sign-btn {
+    /* width: 100%; */
+    background: #670a9c;
+    color: #fff !important;
+    font-size: 0.9rem;
+    border: none;
+    /* width: 50%; */
+
+
+}
+
+.sign-btn:hover {
+    background: #fff;
+    color: #670a9c !important;
+    border: 1px solid #670a9c;
+
+}
+
+.header-search {
+    width: 70%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #ffffffe8;
+    margin-top: -40px !important;
+    border-radius: 10px;
+
+}
+
+.header-search input {
+    width: 22vw;
+    padding: 10px;
+    box-shadow: none !important;
+    outline: none !important;
+
+}
+
+.header-search input:hover {
+    box-shadow: 1px 1px 5px #670a9c8c !important;
+}
+
+
+
+.search-btn {
+    background: #670a9c;
+    color: #fff !important;
+    font-size: 0.9rem;
+    border: none;
+    width: 12vw;
+}
+
+.search-btn:hover {
+    background: #fff;
+    color: #670a9c !important;
+    border: 1px solid #670a9c;
+}
+
+.input-icons {}
+
+.input-icons i {
+    position: absolute;
+    margin: 16px 0px 0px 26px;
+
+
+}
+
+
+::placeholder {
+    font-size: 0.9rem !important;
+}
+
+/* ================= About US CSS STarts-------------------- */
+
+.aboutus-main {
+    margin-top: 50px;
+
+
+}
+
+.aboutus-heading {
+    margin: 30px 0px;
+}
+
+.specialities .card-body .sp-icon i {
+    background: #efe2f5e0;
+    padding: 16px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.aboutus-main .card {
+    border: none;
+    margin: 0px 10px;
+}
+
+
+/* ================= About US CSS Ends-------------------- */
+
+/* ---------------Health Conuslt Strats------------------*/
+
+.consult-main {
+    margin-top: 40px;
+    background: #f4eef7;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.consult-left {
+    position: relative;
+}
+
+.consult-left img {
+    width: 65%;
+    height: 420px;
+    margin-top: 70px;
+    border-radius: 10px !important;
+}
+
+.consult-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.consult-right i {
+    color: #f03615e0 !important;
+    /* padding: 16px; */
+    font-size: 2.8rem;
+    /* border-radius: 10px; */
+    margin: 0px 20px;
+}
+
+.consult-right .consult-text {
+    width: 75%;
+}
+
+.consult-right .consult-text h3 {
+    font-size: 2.2rem !important;
+
+}
+
+.consult-right .consult-text p {
+    font-size: 1rem;
+    margin: 30px 0px;
+    font-weight: 500;
+}
+
+.consult-right button {
+    font-size: 0.9rem;
+    padding: 0px 35px;
+    background: #670a9c;
+    border: none;
+    outline: none;
+}
+
+.consult-right button:hover {
+    color: #670a9c;
+    background: transparent;
+    border: 1px solid #670a9c;
+
+
+}
+
+.consult-main .consult-comments {
+    background: rgb(235, 222, 238);
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    left: 60%;
+    top: 65%;
+    border-radius: 10px;
+
+
+
+}
+
+.consult-comments>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+
+}
+
+.consult-comments :last-child {
+    border: none;
+}
+
+.consult-comments p {
+    font-size: 0.8rem;
+}
+
+.consult-comments img {
+    border: 50%;
+    width: 40px;
+    height: 40px;
+    background: transparent !important;
+    margin: 0px 5px !important;
+
+}
+
+/* ---------------Health Conuslt Ends------------------*/
+
+/* -----------------  Suggest Steps Starts  -------------------*/
+
+
+.suggest-main {
+    margin-top: 40px;
+    background: #f5f3f5e1;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.suggest-right {
+    position: relative;
+
+
+}
+
+.suggest-right img {
+    width: 55%;
+    height: 420px;
+    margin-top: 70px;
+    border-radius: 10px !important;
+}
+
+.suggest-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+
+}
+
+
+
+
+.suggest-left .suggest-text {
+    width: 80%;
+}
+
+.suggest-left .suggest-text h3 {
+    font-size: 1.8rem !important;
+    margin-top: 50px;
+    line-height: 1.3;
+
+}
+
+.suggest-left .suggest-text h4 {
+    font-size: 1rem;
+
+}
+
+
+
+.suggest-left .suggest-text p {
+    font-size: 0.8rem;
+    /* margin: 30px 0px; */
+    font-weight: 400;
+    width: 80%;
+
+}
+
+.suggest-left .suggest-text .suggest-matter {
+    margin: 20px 0px;
+}
+
+
+
+.suggest-num p {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    padding: 8px;
+}
+
+
+.suggest-right .suggest-desc1 {
+    background: rgb(235, 222, 238);
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 60%;
+    top: 85%;
+    border-radius: 10px;
+
+
+
+
+
+}
+
+.suggest-desc1>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 10px; */
+
+
+}
+
+.suggest-desc1 p {
+    font-size: 0.8rem;
+    text-align: left;
+    width: 50%;
+    margin-top: 5px;
+
+}
+
+.suggest-desc1 i {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+
+
+}
+
+
+.suggest-right .suggest-desc2 {
+    background: rgb(235, 222, 238);
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 15%;
+    top: 70%;
+    border-radius: 10px;
+
+
+
+
+}
+
+.suggest-desc2>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 10px; */
+
+
+}
+
+.suggest-desc2 p {
+    font-size: 0.8rem;
+    text-align: left;
+    width: 70%;
+    margin-top: 5px;
+
+}
+
+
+.suggest-desc2 i {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+
+}
+
+.suggest-desc2 span {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* -----------------  Suggest Steps Ends  -------------------*/
+
+/* -- ---------------Best Speciality Starts------------------ */
+
+.speciality-main {
+    margin-top: 20px;
+    text-align: center;
+    background: #f4eef7;
+    padding: 20px;
+
+
+}
+
+.speciality-heading {
+    padding: 40px 0px;
+}
+
+.speciality-heading h3 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.speciality-main .speciality-card {
+    margin-right: -20px !important;
+    margin: 10px 0px;
+
+
+}
+
+
+.speciality-main .speciality-card img {
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.speciality-card .card {
+    border-radius: 10px !important;
+    background-color: #f2f0f3;
+}
+
+.speciality-main .speciality-card .card-body h5 {
+    margin: 0px 0px;
+    font-size: 1rem;
+
+}
+
+
+
+
+/* -- ---------------Best Speciality ENds------------------ */
+
+
+/* -----------------------Healthy Space Starts ----------------------*/
+
+.healthyspace-main {
+    margin-top: 20px;
+    text-align: center;
+    background: #f9f6fa;
+    padding: 20px;
+
+}
+
+.healthyspace-main h3 {
+    padding: 20px;
+}
+
+.healthyspace-heading i {
+    font-size: 1.8rem;
+    background: #e7d7f5;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+
+
+.hs-card {
+    border: none !important;
+    background: #f9f6fa;
+
+}
+
+.hs-right .hs-cardbody {
+    margin-left: -100px !important;
+    width: 90%;
+}
+
+.hs-cardbody>div {
+    padding: 20px;
+    text-align: left;
+
+}
+
+.hs-cardbody i {
+    color: rgb(255, 196, 0) !important;
+}
+
+.hs-cardbody img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+
+
+
+
+/* -----------------------Healthy Space ENds ----------------------*/
+
+/* ---------------------Footer Section Starts ------------------*/
+
+.footer-main {
+    background: #383737;
+    width: 100%;
+    color: #ffffff;
+    padding: 50px;
+    margin-top: 20px;
+
+
+
+}
+
+.footer-main .footer-sub .footer1 p {
+    color: #fdfdfd !important;
+    margin-top: 20px;
+}
+
+.footer-main .footer-sub .footer1 i {
+    background: transparent;
+    font-size: 1.3rem;
+    margin: 20px 10px 0px 0px;
+    color: #b9b9b9 !important;
+
+}
+
+.footer2 {
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.footer2>div {
+    margin: 0px 20px;
+}
+
+.footer2 h3 {
+    font-size: 1.2rem;
+    margin: 0px 30px;
+
+}
+
+.footer-sub .footer2 ul li {
+    text-align: left;
+    font-size: 0.9rem !important;
+    line-height: 2.5rem;
+    color: rgb(250, 245, 245);
+
+}
+
+
+.footer-main .form input {
+    width: 13rem;
+    padding: 10.8px;
+    margin-bottom: 8px;
+}
+
+.footer-main .form button {
+    width: 13rem;
+    padding: 9.6px !important;
+    background-color: #670a9c !important;
+    border: none !important;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.footer3 h3 {
+    font-size: 1.2rem;
+
+
+}
+
+/*
+.footer3 input {
+    width: 70%;
+    background: rgba(201, 199, 199, 0.144);
+    border: none;
+    outline: none !important;
+    font-size: 1rem;
+    margin: 20px 0px;
+    border-radius: 10px; */
+
+/* height: 10% !important; */
+
+/* 
+}
+
+.footer3 input:hover {
+    background-color: rgba(228, 223, 223, 0.103);
+}
+
+.form-floating {
+    font-size: 1rem;
+    color: #d6d1d1c0 !important;
+}
+
+.form-floating .form-control {
+    padding: 0px 0px;
+
+    /* height: 3rem !important; }
+    */
+
+
+
+.footer3 button {
+
+    width: 70%;
+    background: #9e2be0;
+    border: none;
+    height: 50% !important;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px 0px;
+
+}
+
+.footer3 button:hover {
+    color: #ffffff !important;
+    background: #eeecec17 !important;
+
+}
+
+/* ---------------------Footer Section Ends ------------------*/
+
+/* ----------- For differnt Scrren ------------- */
+
+@media only screen and (max-width: 1130px) {
+
+    .navbar-toggler {
+        background: #670a9c;
+
+        border: none !important;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        color: #ffffff !important;
+
+    }
+
+    .header-section {
+        width: 100%;
+        height: 100%;
+        color: white;
+        /* position: relative; */
+        text-align: center;
+        margin-top: 120px;
+        /* background-image: linear-gradient(rgba(0, 170, 255, 0), rgba(0, 170, 255, 0)), url("./images/header-bg1.png"); */
+        background-repeat: no-repeat;
+
+
+        /* background: rgba(248, 246, 246, 0.712); */
+    }
+
+
+
+    .header-right::before {
+        content: "100% Our Patients satisfied";
+        /* font-family: FontAwesome; */
+        position: absolute;
+        top: 95%;
+        right: 0%;
+        left: 45%;
+        /* bottom: 30%; */
+        /* opacity: .3; */
+        z-index: 10;
+        width: 14vw;
+        height: 9vh;
+        background: #e6dedeec;
+        color: #383737;
+        border-radius: 10px;
+        font-size: 0.7rem;
+        padding: 10px;
+
+    }
+
+    .header-right::after {
+        content: "24x7 Call Center";
+        /* font-family: FontAwesome; */
+        position: absolute;
+        top: 85%;
+        right: 0%;
+        left: 70%;
+        /* bottom: 30%; */
+        /* opacity: .3; */
+        z-index: 10;
+        width: 13vw;
+        height: 9vh;
+        background: #e6dedeec;
+        color: #383737;
+        border-radius: 10px;
+        font-size: 0.7rem;
+        padding: 10px;
+
+    }
+
+    .top-header ul li a {
+        font-size: 0.8rem;
+        border-bottom: 1px solid #670a9c52;
+
+    }
+
+    .header-section h1 {
+        text-align: left;
+        color: #000000;
+        font-size: 2rem;
+
+    }
+
+    section.header-left {
+        margin-left: 50px;
+        margin-top: 50px;
+
+    }
+
+
+
+    .sign {
+        width: 100%;
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .sign-btn {
+        /* width: 100%; */
+        background: #670a9c;
+        color: #fff !important;
+        font-size: 0.7rem;
+        border: none;
+        /* width: 50%; */
+
+
+    }
+
+    .sign-btn:hover {
+        background: #fff;
+        color: #670a9c !important;
+        border: 1px solid #670a9c;
+
+    }
+
+
+
+    .header-search input {
+        width: 22vw;
+        padding: 9px;
+    }
+
+    ::placeholder {
+        font-size: 0.9rem !important;
+    }
+
+    /* About us */
+
+    .aboutus-main {
+        margin-top: 50px;
+        width: 100%;
+
+
+    }
+
+    .aboutus-heading {
+        margin: 30px 0px;
+
+    }
+
+    .specialities {
+        width: 100%;
+        margin-left: -20px !important;
+    }
+
+    .card-detail h5 {
+        font-size: 0.9rem;
+    }
+
+    .card-detail p {
+        font-size: 0.7rem;
+    }
+
+    .card-detail a {
+        font-size: 0.9rem;
+    }
+
+
+
+
+    .specialities .card-body .sp-icon i {
+        background: #efe2f5e0;
+        padding: 16px;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+
+    .aboutus-main .card {
+        border: none;
+        padding-right: 10px;
+        width: 18rem !important;
+
+    }
+
+    /* -- Helth Consult--- */
+
+    .consult-main {
+        margin-top: 40px;
+        background: #f4eef7;
+        width: 100%;
+        height: 90vh;
+
+    }
+
+    .consult-left {
+        position: relative;
+    }
+
+    .consult-left img {
+        width: 75%;
+        height: 320px;
+        margin-top: 70px;
+        border-radius: 10px !important;
+    }
+
+    .consult-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .consult-right i {
+        color: #f03615e0 !important;
+        /* padding: 16px; */
+        font-size: 2rem;
+        /* border-radius: 10px; */
+        margin: 0px 20px;
+    }
+
+    .consult-right .consult-text {
+        width: 90%;
+    }
+
+    .consult-right .consult-text h3 {
+        font-size: 2rem !important;
+
+    }
+
+    .consult-right .consult-text p {
+        font-size: 0.8rem;
+        margin: 30px 0px;
+        font-weight: 400;
+    }
+
+    .consult-right button {
+        font-size: 0.7rem;
+        padding: 0px 20px;
+        background: #670a9c;
+        border: none;
+        outline: none;
+    }
+
+    .consult-right button:hover {
+        color: #670a9c;
+        background: transparent;
+        border: 1px solid #670a9c;
+
+
+    }
+
+    .consult-main .consult-comments {
+        background: rgb(235, 222, 238);
+        width: 180px;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        border-radius: 10px;
+
+
+
+    }
+
+    .consult-comments>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+
+    }
+
+    .consult-comments :last-child {
+        border: none;
+    }
+
+    .consult-comments p {
+        font-size: 0.7rem;
+    }
+
+    .consult-comments img {
+        border: 50%;
+        width: 30px;
+        height: 30px;
+        background: transparent !important;
+        margin: 0px 5px !important;
+
+    }
+
+    /* --- Suggest Steps --- */
+
+
+    .suggest-main {
+        margin-top: 40px;
+        background: #f5f3f5e1;
+        width: 100%;
+        height: 90vh;
+
+    }
+
+    .suggest-right {
+        position: relative;
+
+
+    }
+
+    .suggest-right img {
+        width: 60%;
+        height: 300px;
+        margin-top: 70px;
+        border-radius: 10px !important;
+    }
+
+    .suggest-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+
+
+    }
+
+
+
+
+    .suggest-left .suggest-text {
+        width: 90%;
+    }
+
+    .suggest-left .suggest-text h3 {
+        font-size: 1.6rem !important;
+        margin-top: 50px;
+        line-height: 1.3;
+
+    }
+
+    .suggest-left .suggest-text h4 {
+        font-size: 0.8rem;
+
+    }
+
+
+
+    .suggest-left .suggest-text p {
+        font-size: 0.7rem;
+        /* margin: 30px 0px; */
+        font-weight: 400;
+        width: 100%;
+
+    }
+
+    .suggest-left .suggest-text .suggest-matter {
+        margin: 20px 0px;
+    }
+
+
+
+    .suggest-num p {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #fff;
+        text-align: center;
+        padding: 5px;
+    }
+
+
+    .suggest-right .suggest-desc1 {
+        background: rgb(235, 222, 238);
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        border-radius: 10px;
+    }
+
+    .suggest-desc1>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        /* padding: 10px; */
+
+
+    }
+
+    .suggest-desc1 p {
+        font-size: 0.7rem;
+        text-align: left;
+        width: 50%;
+        margin-top: 5px;
+
+    }
+
+    .suggest-desc1 i {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+
+
+    }
+
+
+    .suggest-right .suggest-desc2 {
+        background: rgb(235, 222, 238);
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        border-radius: 10px;
+
+    }
+
+    .suggest-desc2>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        /* padding: 10px; */
+
+
+    }
+
+    .suggest-desc2 p {
+        font-size: 0.7rem;
+        text-align: left;
+        width: 70%;
+        margin-top: 5px;
+
+    }
+
+
+    .suggest-desc2 i {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+
+    }
+
+    .suggest-desc2 span {
+        font-weight: bold;
+    }
+
+    /* ---   Best COnsultants --  */
+
+    .speciality-main {
+        margin-top: 20px;
+        text-align: center;
+        background: #f4eef7;
+        padding: 20px;
+
+
+    }
+
+    .speciality-heading {
+        padding: 40px 0px;
+    }
+
+    .speciality-heading h3 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+
+    .speciality-main .speciality-card {
+        margin-right: 20px !important;
+        margin: 10px 0px;
+        margin-left: -20px !important;
+
+
+    }
+
+
+    .speciality-main .speciality-card img {
+        height: 150px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .speciality-card .card {
+        border-radius: 10px !important;
+        background-color: #f2f0f3;
+        width: 9rem !important;
+        height: 220px;
+    }
+
+    .speciality-main .speciality-card .card-body {
+        padding: 10px 5px !important;
+    }
+
+
+    .speciality-main .speciality-card .card-body h5 {
+        margin: 0px 0px;
+        font-size: 0.8rem;
+
+    }
+
+    /* -------Healthy Space----------   */
+
+    .hs-right .hs-cardbody {
+        margin-left: -80px !important;
+        width: 100%;
+    }
+
+    /* ------------Footer ----------- */
+
+
+
+    .footer-main .footer-sub .footer1 p {
+        color: #fdfdfd !important;
+        margin-top: 20px;
+    }
+
+    .footer-main .footer-sub .footer1 i {
+        background: transparent;
+        font-size: 1.3rem;
+        margin: 20px 10px 0px 0px;
+        color: #b9b9b9 !important;
+
+    }
+
+    .footer2 {
+        text-align: left;
+        padding: 0px 0px;
+    }
+
+    .footer2>div {
+        margin: 0px 0px;
+
+    }
+
+    .footer2 h3 {
+        font-size: 1rem;
+        margin: 0px 30px;
+
+    }
+
+    .footer-sub .footer2 ul li {
+        text-align: left;
+        font-size: 0.8rem !important;
+        line-height: 2rem;
+        color: rgb(250, 245, 245);
+
+    }
+
+    .footer3 h3 {
+        font-size: 1.2rem;
+
+
+    }
+
+    .footer3 input {
+        width: 80%;
+        background: rgba(201, 199, 199, 0.144);
+        border: none;
+        outline: none !important;
+        font-size: .5rem !important;
+        margin: 20px 0px;
+        border-radius: 10px;
+
+        /* height: 10% !important; */
+
+
+    }
+
+    .footer3 input:hover {
+        background-color: rgba(228, 223, 223, 0.103);
+    }
+
+    .form-floating {
+        font-size: 1rem;
+        color: #d6d1d1c0 !important;
+    }
+
+    .form-floating .form-control {
+        padding: 0px 0px;
+        /* height: 3rem !important; */
+
+
+    }
+
+    .footer3 button {
+
+        width: 80%;
+        background: #9e2be0;
+        border: none;
+        height: 30% !important;
+        outline: none;
+        font-size: 1rem;
+        padding: 10px 0px;
+
+    }
+
+    .footer3 button:hover {
+        color: #ffffff;
+        background: #eeecec17;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* About us */
+
+
+
+
+    .header-section {
+        width: 100%;
+        height: 70vh;
+        color: white;
+        /* position: relative; */
+        text-align: center;
+        margin-top: 50px;
+        /* background-image: linear-gradient(rgba(0, 170, 255, 0), rgba(0, 170, 255, 0)), url("./images/header-bg1.png"); */
+        background-repeat: no-repeat;
+
+
+        /* background: rgba(248, 246, 246, 0.712); */
+    }
+
+
+
+    .header-right::before {
+        content: "100% Our Patients satisfied";
+        /* font-family: FontAwesome; */
+        position: absolute;
+        top: 120%;
+        right: 0%;
+        left: 5%;
+        /* bottom: 30%; */
+        /* opacity: .3; */
+        z-index: 10;
+        width: 16vw;
+        height: 9vh;
+        background: #e6dedeec;
+        color: #383737;
+        border-radius: 10px;
+        font-size: 0.7rem;
+        padding: 10px;
+
+    }
+
+    .header-right::after {
+        content: "24x7 Call Center";
+        /* font-family: FontAwesome; */
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        left: 60%;
+        /* bottom: 30%; */
+        /* opacity: .3; */
+        z-index: 10;
+        width: 16vw;
+        height: 9vh;
+        background: #e6dedeec;
+        color: #383737;
+        border-radius: 10px;
+        font-size: 0.7rem;
+        padding: 10px;
+
+    }
+
+
+    .aboutus-main {
+        margin-top: 20px;
+        width: 100%;
+
+
+    }
+
+
+    .header-search {
+        width: 100% !important;
+        height: 10vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #ffffffe8;
+        margin-top: 220px !important;
+        border-radius: 10px;
+
+    }
+
+    .header-search input {
+        width: 25vw;
+        padding: 5px;
+    }
+
+    .search-btn {
+        background: #670a9c;
+        color: #fff !important;
+        font-size: 0.9rem;
+        border: none;
+        width: 15vw;
+    }
+
+    /* Health Consult  */
+
+    .consult-main {
+        margin-top: 40px;
+        background: #f4eef7;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .consult-left {
+        position: relative;
+    }
+
+    .consult-left img {
+        width: 65%;
+        height: 320px;
+        margin-top: 70px;
+        border-radius: 10px !important;
+    }
+
+    .consult-main .consult-comments {
+        background: rgb(235, 222, 238);
+        width: 180px;
+        height: 200px;
+        position: absolute;
+        left: 65%;
+        top: 65%;
+        border-radius: 10px;
+
+
+
+    }
+
+    .consult-right {
+        margin: 100px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .consult-comments p {
+        font-size: 0.7rem;
+    }
+
+    .consult-comments img {
+        border: 50%;
+        width: 30px;
+        height: 30px;
+        background: transparent !important;
+        margin: 0px 5px !important;
+
+    }
+
+    /* Suggest Section */
+
+    .suggest-main {
+        margin-top: 40px;
+        background: #f5f3f5e1;
+        width: 100%;
+        height: 100%;
+        padding: 20px 0px;
+
+    }
+
+
+    .suggest-right img {
+        width: 50%;
+        height: 300px;
+        margin-top: 30px;
+        border-radius: 10px !important;
+    }
+
+
+    .suggest-num p {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    .suggest-right .suggest-desc1 {
+
+        position: absolute;
+        left: 60%;
+        top: 70%;
+        border-radius: 10px;
+    }
+
+    .suggest-right .suggest-desc2 {
+        left: 20%;
+    }
+
+
+    /* ---   Best COnsultants --  */
+
+
+
+    .speciality-card .card {
+        border-radius: 10px !important;
+        background-color: #f2f0f3;
+        width: 11rem !important;
+        height: 220px;
+    }
+
+    /* -------Healthy Space----------   */
+
+
+    .healthyspace-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hs-card p {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .hs-card h6 {
+        font-size: 0.8rem;
+    }
+
+    .hs-cardbody {
+        padding: 0px;
+    }
+
+    .hs-right .hs-cardbody {
+        margin-left: 0px !important;
+        width: 100%;
+    }
+
+    /* ----------Footer --------------- */
+
+    .footer-sub {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .footer3 {
+        width: 40%;
+
+
+    }
+
+    .footer3 input {
+        width: 80% !important;
+        background: rgba(201, 199, 199, 0.144);
+        border: none;
+        outline: none !important;
+        font-size: 1rem;
+        margin: 20px 0px;
+        border-radius: 10px;
+        /* height: 10% !important; */
+    }
+
+    .footer-main .form input {
+        width: 13rem;
+        padding: 15px;
+        margin-bottom: 8px;
+    }
+
+    .footer3 form {
+        text-align: center;
+    }
+
+    .footer3 button {
+        height: 40% !important;
+
+
+    }
+
+}
